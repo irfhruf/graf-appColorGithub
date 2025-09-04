@@ -1,0 +1,19 @@
+/* Fondo degradado elegante */
+.bg-gradient {
+  background: linear-gradient(135deg, #e0eafc, #cfdef3);
+  min-height: 100vh;
+}
+
+/* Recuadro del color */
+.color-box {
+  width: 100%;
+  height: 180px;
+  border-radius: 12px;
+  border: 2px solid #ddd;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Suave animación al cambiar color */
+.color-box:hover {
+  transform: scale(1.02);
+}
